@@ -56,9 +56,9 @@ h2{
 .main{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     &-text{
         flex:0 0 40%;
+        padding-top: 190px;
         &__description{
         margin-top: 63px;
         font-size: 1.12rem;
@@ -66,5 +66,18 @@ h2{
         margin-bottom: 79px;
         }
     }
-    
+    &-visual{
+        border: 1px solid rgba($gray,$alpha);
+        border-radius: 100%;
+        padding: 53px;
+        &__image{
+            border-radius: 100%;
+            border: 1px solid rgba($gray,$alpha);
+            padding: 21px;
+            img{
+                border-radius: 100%;
+                box-shadow: 15px 48px 42px 0 rgba($gray,$alpha);
+            }
+        }
+    }
 }
