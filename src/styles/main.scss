@@ -12,6 +12,7 @@
 body{
     font-family: 'Jost', sans-serif;
     color: $gray;
+    overflow-x: hidden;
 }
 h2{
     font-family: 'Cormorant', serif;
@@ -44,6 +45,8 @@ h2{
 .wrapper{
     max-width: 1440px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .section-main{
@@ -52,13 +55,13 @@ h2{
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    padding-bottom: 100px;
+    padding-bottom: 210px;
     &__image{
         position: absolute;
     }
     &__tomato{
         right: 111px;
-        bottom: 27px;
+        bottom: 137px;
     }
     &__avocado{
         top: 48px;
@@ -66,7 +69,7 @@ h2{
     }
     &__beans{
         left: -11px;
-        bottom: 65px;;
+        bottom: 177px;;
     }
     &__pepper{
         top: 400px;
@@ -89,7 +92,7 @@ h2{
         margin-top: 63px;
         font-size: 1.12rem;
         line-height: 1.5;
-        margin-bottom: 79px;
+        margin-bottom: 81px;
         }
     }
     &-visual{
@@ -155,9 +158,22 @@ h2{
                     right: 238px;
                     bottom: -52px;
                     &::before{
-                        right: 37px;
-                        bottom: 56px;
+                        left: 19px;
+                        top: -24px;
                         }
                     }
         }
+    }
+    
+.section-stock{
+    background-image: url(../img/bg-2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    &__text{
+        font-size: 1.5rem;
+        max-width: 690px;
+        margin-top: 3.75rem;
+        line-height: 1.5;
+    }
     }
