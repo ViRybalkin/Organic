@@ -1,0 +1,86 @@
+.footer{
+    border-top: 1px solid $gray;
+    .logo{
+        width: 179px;
+        height: 48px;
+    }
+}
+
+.box-footer{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    &-item{
+        display: flex;
+        justify-content: space-between;
+        flex: 0 0 66.4%;
+    }
+    &-list{
+        &__link{
+            color: $gray;
+            text-decoration: none;
+            font-size: 1.12rem;
+        }
+        &__tel{
+            font-size: 1.68rem;
+            margin-bottom: 2.06rem;
+        }
+        &__item{
+            margin-bottom: 1.62rem;
+            list-style-type: none;
+            font-size: 1.12rem;
+        }
+    }
+}
+
+.box-footer-social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    &__link{
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 48px;
+        height: 48px;
+        border: 2px solid $gray;
+        border-radius: 100%;
+        display: block;
+        opacity: 0.8;
+        transition: 0.2s ease;
+    }
+    &__vk{
+        background-image: url(..//..//..//img/Icons/vk.svg);
+        background-size: 23px 18px;
+    }
+    &__inst{
+        background-image: url(..//..//..//img/Icons/instagram.svg);
+        background-size: 18px 18px;
+    }
+    &__fb{ 
+        background-image: url(..//..//..//img/Icons/facebook.svg);
+        background-size: 18px 18px;
+     }
+}
+.box-copyright{
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    &__copy{
+        opacity: 0.6;
+    }
+    &__text{
+        position: relative;
+        color: #a6a8a4;
+    }
+    &__link{
+        opacity: 0.6;
+        text-decoration: none;
+        color: $gray;
+        &:hover{
+            opacity: 1;
+        }
+    }
+}
+
